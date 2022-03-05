@@ -14,7 +14,7 @@ function MainNavigation() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/newmeetups">Add New Cars</Link>
+              <Link to="/newcars">Add New Cars</Link>
             </li>
             <li>
               <Link to="/favorites">My Favorites <span className={classes.badge}>{favoritsCtx.totalFavorites}</span></Link>

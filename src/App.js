@@ -7,12 +7,12 @@ import NewMeetUp from "./pages/NewMeetUp";
 function App() {
   return (
     <Layout>
-    <Routes>
-      <Route path="/" element={<AllMeetUp />} />
-      <Route path="/newmeetups" element={<NewMeetUp />} />
-      <Route path="/favorites" element={<Favorites />} />
-    </Routes>
-    </Layout>   
+      <Routes>
+        <Route path="/" element={<AllMeetUp />} />
+        <Route path="/newcars" element={<NewMeetUp />} />
+        <Route path="/favorites" element={<Favorites />} />
+      </Routes>
+    </Layout>
   );
 }
 
